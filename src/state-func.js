@@ -1,9 +1,7 @@
 import React,{useState} from "react";
-
 export default function MessageBox(){
     let [text,setText]=useState('Hello World')
     let [size,setSize]=React.useState(16)
-
     const onClickSetText=()=>{
         let t=prompt('กำหนดข้อความ')
         if (t){
